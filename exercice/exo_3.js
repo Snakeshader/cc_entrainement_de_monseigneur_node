@@ -1,12 +1,30 @@
-let couleur = vert;
-let i = 1;
+let couleur = "vert";
+let i = 0;
+let index = ["bleu","rouge","vert"]
 
-switch (couleur) { 
 
-    case rouge:
-        console.log("de")
-        break;
+for (i,couleur,index; index === couleur;) {
+    
+    switch (couleur,index) {
 
-    case vert:
-        console.log("de")
+        case "rouge":
+            console.log(`La couleur à l'index ${index} est : `)
+    
+        case "bleu":
+            console.log(`La couleur à l'index ${index} est : `)
+
+        case "vert":
+            console.log(`La couleur à l'index ${index} est : `)
+    
+
+
+
     }
+
+
+    console.log(`La couleur à l'index ${index} est : ` )  
+}
+
+
+
+        
