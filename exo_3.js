@@ -1,4 +1,6 @@
-let index = vert,jaune,bleu;
+const index = vert,jaune,bleu;
+let couleur = vert;
+let i = 1;
 
 switch (i) { //i est la variable dont on va regarder la valeur
 
@@ -6,7 +8,7 @@ switch (i) { //i est la variable dont on va regarder la valeur
     case 0:
         break;
     case 1:
-        console.log(`La couleur à l'index ${index} est : `);
+        for (index,couleur;index) {
         break;
-
+    }
 }
